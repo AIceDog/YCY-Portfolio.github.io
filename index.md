@@ -120,11 +120,11 @@ title: Yichen Yang's Works
   <tr>
     <td style="width:50%; padding-right: 5px;">
       <img src="gifs/JSTFormer_Sample1.gif" alt="输出效果1" width="100%">
-      <p style="text-align:center; font-size: 0.9em; color: #555;">(输入视频)</p>
+      <p style="text-align:center; font-size: 0.9em; color: #555;">(效果视频1)</p>
     </td>
     <td style="width:50%; padding-left: 5px;">
       <img src="gifs/JSTFormer_Sample2.gif" alt="输出效果2" width="100%">
-      <p style="text-align:center; font-size: 0.9em; color: #555;">(3D姿态识别结果)</p>
+      <p style="text-align:center; font-size: 0.9em; color: #555;">(效果视频2)</p>
     </td>
   </tr>
 </table>
