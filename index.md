@@ -104,23 +104,22 @@ title: Yichen Yang's Works
 
 ---
 
-### 项目三：[你的下一个项目，例如：UE5 实时雪迹效果]
+### 非游戏项目：[基于 Transformer 的 3D 人体姿态识别]
 
-* **项目简介：** [例如：使用 UE5 的 Render Target 和材质蓝图实现的实时交互式雪地脚印效果。]
-* **使用技术：** UE5 (Material Blueprint, Render Target), HLSL
+* **项目简介：** [在 Vision Transformer 的基础上利用 Pytorch 搭建和训练神经网络, 效果为: 输入一段视频, 输出 3D 人体骨骼动画]
+* **使用技术：** Python, Pytorch, Transformer
 * **项目详情/视频链接：** [链接...]
 
 ---
 
 ## 关于我
 
-[在这里写一段 2-3 句话的个人简介，突出你对 PCG 的热情、你的核心能力和职业目标。例如：我热衷于在游戏和实时渲染中创建复杂的程序化系统，擅长使用 Houdini 和 UE5 构建高效、可控的工具流来解决美术管线中的挑战。]
+[例如：我热衷于在游戏中创建复杂的程序化系统，擅长使用 Houdini 和 UE5 构建高效可控的工具流来解决美术管线中的挑战。]
 
 * **核心技能：**
     * **DCC:** Houdini (VEX, Python), UE5 (Blueprints, Materials)
     * **编程:** Python, C++, HLSL
-    * **其他:** Substance Designer, ZBrush, ...
+    * **其他:** Substance Designer, Computer Vision, Transformer...
 * **联系方式：**
-    * **Email:** [yichen.yang.works@email.com (请替换为你的邮箱)]
-    * **LinkedIn:** [linkedin.com/in/your-profile (请替换为你的领英链接)]
-    * **ArtStation:** [artstation.com/your-profile (请替换为你的A站链接)]
+    * **Email:** [15927443559@163.com]
+    * **LinkedIn:** [https://www.linkedin.com/in/yichen-yang-72235b166/]
