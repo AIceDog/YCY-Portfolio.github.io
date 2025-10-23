@@ -23,7 +23,7 @@ title: Yichen Yang's Works
 
 ## 项目与作品
 
-### 项目一：Houdini 程序化岩C石包边 (Gaea/Houdini/UE5)
+### 项目一：Houdini 程序化岩石包边 (Gaea/Houdini/UE5)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe 
@@ -104,22 +104,41 @@ title: Yichen Yang's Works
 
 ---
 
-### 非游戏项目：[基于 Transformer 的 3D 人体姿态识别]
+### 非游戏项目：基于 Transformer 的 3D 人体姿态识别
 
-* **项目简介：** [在 Vision Transformer 的基础上利用 Pytorch 搭建和训练神经网络, 效果为: 输入一段视频, 输出 3D 人体骨骼动画]
-* **使用技术：** Python, Pytorch, Transformer
-* **项目详情/视频链接：** [链接...]
+<p style="margin-top: 10px;">
+  <strong>项目简介：</strong> 在 Vision Transformer (ViT) 的基础上利用 Pytorch 搭建和训练神经网络, 实现从 2D 视频输入到 3D 人体骨骼动画的姿态估计。
+  <br>
+  <strong>使用技术：</strong> Python, Pytorch, Transformer (ViT)
+  <br>
+  <a href="https://github.com/AIceDog/JSTFormer.git" target="_blank">
+    <strong>在 GitHub 上查看项目源码</strong>
+  </a>
+</p>
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; padding-right: 5px;">
+      <img src="gifs/JSTFormer_Sample1.gif" alt="输出效果1" width="100%">
+      <p style="text-align:center; font-size: 0.9em; color: #555;">(输入视频)</p>
+    </td>
+    <td style="width:50%; padding-left: 5px;">
+      <img src="gifs/JSTFormer_Sample2.gif" alt="输出效果2" width="100%">
+      <p style="text-align:center; font-size: 0.9em; color: #555;">(3D姿态识别结果)</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 关于我
 
-[例如：我热衷于在游戏中创建复杂的程序化系统，擅长使用 Houdini 和 UE5 构建高效可控的工具流来解决美术管线中的挑战。]
+我热衷于在游戏中创建复杂的程序化系统，擅长使用 Houdini 和 UE5 构建高效可控的工具流来解决美术管线中的挑战。
 
 * **核心技能：**
     * **DCC:** Houdini (VEX, Python), UE5 (Blueprints, Materials)
     * **编程:** Python, C++, HLSL
-    * **其他:** Substance Designer, Computer Vision, Transformer...
+    * **其他:** Substance Designer, Computer Vision, Transformer
 * **联系方式：**
-    * **Email:** [15927443559@163.com]
-    * **LinkedIn:** [https://www.linkedin.com/in/yichen-yang-72235b166/]
+    * **Email:** 15927443559@163.com
+    * **LinkedIn:** <a href="https://www.linkedin.com/in/yichen-yang-72235b166/" target="_blank">linkedin.com/in/yichen-yang-72235b166</a>
