@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 我的个人作品集
+title: YCY's Works
 ---
 
-# 你的名字（或昵称）
+# Yichen Yang
 **技术美术 (Technical Artist) | 专注于程序化生成 (PCG)**
 
 你好！欢迎来到我的作品集。我致力于探索 Houdini、UE5 和 Python 在游戏开发中的程序化解决方案。
@@ -42,9 +42,9 @@ title: 我的个人作品集
 
 <table>
   <tr>
-    <td><img src="images/pic1.jpg" alt="图片1" width="100%"></td>
-    <td><img src="images/pic2.jpg" alt="图片2" width="100%"></td>
-    <td><img src="images/pic3.jpg" alt="图片3" width="100%"></td>
+    <td><img src="images/Rocks_gaea.png" alt="图片1" width="100%"></td>
+    <td><img src="images/Rocks_Houdini.png" alt="图片2" width="100%"></td>
+    <td><img src="images/Rocks_UE5.png" alt="图片3" width="100%"></td>
   </tr>
   </table>
 
