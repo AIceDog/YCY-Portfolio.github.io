@@ -3,6 +3,17 @@ layout: default
 title: Yichen Yang's Works
 ---
 
+<style>
+  body {
+    background-image: url('images/wallpaper.jpg'); /* <-- 在这里修改你的壁纸图片路径 */
+    background-size: cover;             /* 铺满整个屏幕 */
+    background-position: center;        /* 居中显示 */
+    background-attachment: fixed;       /* 固定背景，滚动时背景不动 */
+    background-repeat: no-repeat;       /* 防止图片平铺重复 */
+  }
+</style>
+
+
 # Yichen Yang
 **技术美术 (Technical Artist) | 专注于程序化生成 (PCG)**
 
@@ -12,7 +23,7 @@ title: Yichen Yang's Works
 
 ## 项目与作品
 
-### 项目一：Houdini 程序化岩石包边 (Gaea/Houdini/UE5)
+### 项目一：Houdini 程序化岩C石包边 (Gaea/Houdini/UE5)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe 
@@ -27,7 +38,10 @@ title: Yichen Yang's Works
 </div>
 
 <p style="margin-top: 10px;">
-  <strong>项目简介：</strong> [Gaea: 负责生成基础地形地貌，并输出岩石区域遮罩（Mask）。Houdini:利用 Gaea 遮罩，程序化撒点并放置大型主体岩石。通过 Python 脚本实现精细化控制，根据已有岩石位置和遮罩数据，自动生成（或放置）用于过渡和填充的细节岩石。UE5: 导入所有资产，并利用遮罩在材质中实现岩石与地形的自动包边和无缝融合。]
+  <strong>项目简介：</strong>
+  <br><strong>Gaea:</strong> 负责生成基础地形地貌，并输出岩石区域遮罩（Mask）。
+  <br><strong>Houdini:</strong> 利用 Gaea 遮罩，程序化撒点并放置大型主体岩石。通过 Python 脚本实现精细化控制，根据已有岩石位置和遮罩数据，自动生成（或放置）用于过渡和填充的细节岩石。
+  <br><strong>UE5:</strong> 导入所有资产，并利用遮罩在材质中实现岩石与地形的自动包边和无缝融合。
   <br>
   <a href="https://www.bilibili.com/video/BV1tmeRzBEWd/" target="_blank">
     在 Bilibili 上观看 (获取弹幕和评论)
@@ -35,43 +49,46 @@ title: Yichen Yang's Works
 </p>
 
 <details style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; margin-top: 15px;">
-  
   <summary style="cursor: pointer;">
     <strong>点击展开/折叠项目效果图片 (共 3 张)</strong>
   </summary>
-
   <div style="margin-top: 10px;">
     <img src="images/Rocks_gaea.png" alt="Gaea 高程图" width="100%" style="margin-bottom: 10px;">
     <img src="images/Rocks_Houdini.png" alt="Houdini 节点" width="100%" style="margin-bottom: 10px;">
     <img src="images/Rocks_UE5.png" alt="UE5 最终效果" width="100%">
   </div>
-
 </details>
 
 * **使用技术：** Gaea, Houdini, VEX, UE5 (材质)
-
 
 ---
 
 ### 项目二：Houdini Python 程序化建筑
 
 <p style="margin-top: 10px;">
-  <strong>项目简介：</strong> [本项目是一个基于 Houdini 和 Python 构建的程序化建筑生成器。其核心思想是将‘乐高积木’（模块化组件）与多阶段算法相结合：
-体素化 (Voxelization): 首先，将任意输入几何体（或建筑轮廓）体素化，将其转换为一个三维空间网格，作为建筑的“地基”和可建造空间。
-内部流线 (A Pathfinding):* 接着，利用带约束的 A* 寻路算法，在体素空间中自动“雕刻”出核心的内部流线，如走廊和楼梯间。
-模块填充 (Template Matching): 最后，系统使用模板匹配算法，将一个预设的“乐高”模块库（如房间、拐角、T型路口等）智能地拼装到 A* 算法生成的路径和剩余空间中，最终组装成完整的建筑结构。]
-  <br>
-  <strong>使用技术：</strong> Houdini, Python (Houdini), Jupyter Notebook
-  <br>
+  <strong>项目简介：</strong> 本项目是一个基于 Houdini 和 Python 构建的程序化建筑生成器。其核心思想是将‘乐高积木’（模块化组件）与多阶段算法相结合：
 </p>
 
+<ol style="text-align: left;">
+  <li>
+    <strong>体素化 (Voxelization):</strong> 首先，将任意输入几何体（或建筑轮廓）体素化，将其转换为一个三维空间网格，作为建筑的“地基”和可建造空间。
+  </li>
+  <li>
+    <strong>内部流线 (A* Pathfinding):</strong> 接着，利用带约束的 A* 寻路算法，在体素空间中自动“雕刻”出核心的内部流线，如走廊和楼梯间。
+  </li>
+  <li>
+    <strong>模块填充 (Template Matching):</strong> 最后，系统使用模板匹配算法，将一个预设的“乐高”模块库（如房间、拐角、T型路口等）智能地拼装到 A* 算法生成的路径和剩余空间中，最终组装成完整的建筑结构。
+  </li>
+</ol>
+
+<p>
+  <strong>使用技术：</strong> Houdini, Python (Houdini), Jupyter Notebook
+</p>
 
 <details style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; margin-top: 15px;">
-  
   <summary style="cursor: pointer;">
     <strong>点击展开/折叠项目效果图片 (共 9 张)</strong>
   </summary>
-
   <div style="margin-top: 10px;">
     <img src="images/building1_001.png" alt="建筑图片1" width="100%" style="margin-bottom: 10px;">
     <img src="images/building1_002.png" alt="建筑图片2" width="100%" style="margin-bottom: 10px;">
@@ -83,7 +100,6 @@ title: Yichen Yang's Works
     <img src="images/building2_005.png" alt="建筑图片8" width="100%" style="margin-bottom: 10px;">
     <img src="images/building2_006.png" alt="建筑图片9" width="100%">
   </div>
-
 </details>
 
 ---
