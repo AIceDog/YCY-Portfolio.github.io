@@ -27,7 +27,7 @@ title: Yichen Yang's Works
 </div>
 
 <p style="margin-top: 10px;">
-  <strong>项目简介：</strong> [请在这里描述这个岩石项目的工作流，例如：使用 Gaea 生成基础高度图，导入 Houdini 进行侵蚀和程序化细节雕刻，最后在 UE5 中实现自动包边和地貌材质。]
+  <strong>项目简介：</strong> [Gaea: 负责生成基础地形地貌，并输出岩石区域遮罩（Mask）。Houdini:利用 Gaea 遮罩，程序化撒点并放置大型主体岩石。通过 Python 脚本实现精细化控制，根据已有岩石位置和遮罩数据，自动生成（或放置）用于过渡和填充的细节岩石。UE5: 导入所有资产，并利用遮罩在材质中实现岩石与地形的自动包边和无缝融合。]
   <br>
   <a href="https://www.bilibili.com/video/BV1tmeRzBEWd/" target="_blank">
     在 Bilibili 上观看 (获取弹幕和评论)
@@ -37,7 +37,7 @@ title: Yichen Yang's Works
 <details style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; margin-top: 15px;">
   
   <summary style="cursor: pointer;">
-    <strong>点击展开/折叠项目图片 (共 3 张)</strong>
+    <strong>点击展开/折叠项目效果图片 (共 3 张)</strong>
   </summary>
 
   <div style="margin-top: 10px;">
@@ -56,17 +56,20 @@ title: Yichen Yang's Works
 ### 项目二：Houdini Python 程序化建筑
 
 <p style="margin-top: 10px;">
-  <strong>项目简介：</strong> [请在这里描述这个建筑项目的目标和实现方法，例如：使用 Python 脚本在 Houdini 中读取布局数据，自动生成建筑的楼层、墙体、窗户和屋顶等模块。]
+  <strong>项目简介：</strong> [本项目是一个基于 Houdini 和 Python 构建的程序化建筑生成器。其核心思想是将‘乐高积木’（模块化组件）与多阶段算法相结合：
+体素化 (Voxelization): 首先，将任意输入几何体（或建筑轮廓）体素化，将其转换为一个三维空间网格，作为建筑的“地基”和可建造空间。
+内部流线 (A Pathfinding):* 接着，利用带约束的 A* 寻路算法，在体素空间中自动“雕刻”出核心的内部流线，如走廊和楼梯间。
+模块填充 (Template Matching): 最后，系统使用模板匹配算法，将一个预设的“乐高”模块库（如房间、拐角、T型路口等）智能地拼装到 A* 算法生成的路径和剩余空间中，最终组装成完整的建筑结构。]
   <br>
-  <strong>使用技术：</strong> Houdini, Python (Houdini), ...
+  <strong>使用技术：</strong> Houdini, Python (Houdini), Jupyter Notebook
   <br>
-  </p>
+</p>
 
 
 <details style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; margin-top: 15px;">
   
   <summary style="cursor: pointer;">
-    <strong>点击展开/折叠项目图片 (共 9 张)</strong>
+    <strong>点击展开/折叠项目效果图片 (共 9 张)</strong>
   </summary>
 
   <div style="margin-top: 10px;">
