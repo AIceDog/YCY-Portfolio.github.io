@@ -18,7 +18,35 @@ title: 我的个人作品集
 * **使用技术：** Houdini, VEX, Python, UE5
 * **项目详情/视频链接：** [（可选）放一个 Bilibili、YouTube 或 ArtStation 的链接]
 
+### 项目一：[你的项目标题]
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="//player.bilibili.com/player.html?bvid=BV1tmeRzBEWd&page=1" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+<p>
+  <strong>项目简介：</strong> [这里写你的项目描述...]
+  <br>
+  <a href="https://www.bilibili.com/video/BV1tmeRzBEWd/" target="_blank">
+    在 Bilibili 上观看 (获取弹幕和评论)
+  </a>
+</p>
+
+<table>
+  <tr>
+    <td><img src="images/pic1.jpg" alt="图片1" width="100%"></td>
+    <td><img src="images/pic2.jpg" alt="图片2" width="100%"></td>
+    <td><img src="images/pic3.jpg" alt="图片3" width="100%"></td>
+  </tr>
+  </table>
 
 
 ### 项目二：[Houdini Python 程序化建筑]
