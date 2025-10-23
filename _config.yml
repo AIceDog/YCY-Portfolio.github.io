@@ -1,0 +1,8 @@
+# 从你粘贴的文档 "Supported themes" 列表里选一个
+# 我推荐 "Minimal" 或 "Cayman"
+
+theme: jekyll-theme-minimal
+
+# (可选) 你还可以加上标题和描述，很多主题会用到
+title: 你的作品集
+description: 一个专注于PCG的技术美术的作品站
